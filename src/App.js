@@ -7,13 +7,7 @@ function App() {
   const travelExp = Traveldata.map(item => {
     return <Home 
         key={item.id} 
-        title={item.title} 
-        location={item.location} 
-        startDate={item.startDate} 
-        endDate={item.endDate} 
-        description={item.description} 
-        image={item.image} 
-        description={item.description}
+        item={item}
     />
   })
   return (
