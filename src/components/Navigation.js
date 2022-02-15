@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navigation.css';
-import { Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
+import { Navbar, NavbarBrand } from 'reactstrap';
 
 function Navigation() {
     return (

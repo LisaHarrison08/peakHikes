@@ -77,6 +77,6 @@ export default [
        startDate: "12 Jan, 2021",
        endDate: "24 Jan, 2021",
        description: "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge.",
-       image: "peruMachuPicchu.jpg"
+       image: "machuPicchu.jpg"
    }
 ]

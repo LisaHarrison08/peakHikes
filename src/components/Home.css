@@ -4,7 +4,19 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 .card--image {
-    width: 25%;
-    border-radius: 15px;
+    width:100%;
+    height:300px;
+    border-radius: 5px;
+    
+}
+
+.card--text{
+    margin-top: 20px;
+    padding:30px;
 }
