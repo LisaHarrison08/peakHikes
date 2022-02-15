@@ -26,7 +26,7 @@ export default [
        googleMapsUrl: "https://goo.gl/maps/sqzy7pgrxa2QnooT8",
        startDate: "12 Jan, 2021",
        endDate: "24 Jan, 2021",
-       description: "Dinali is the highest peak in North America, with a summit elevation of 20,310 feet above sea level, set in the vast Denali National Park.",
+       description: "Denali is the highest peak in North America, with a summit elevation of 20,310 feet above sea level, set in the vast Denali National Park.",
        image: "mountDenali.jpg"
    },
    {

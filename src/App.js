@@ -1,6 +1,8 @@
 import React from "react"
 import './App.css';
 import Home from "./components/Home"
+import Navigation from "./components/Navigation"
+import Footer from "./components/Footer"
 import Traveldata from "./data"
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
   })
   return (
     <div>
+      < Navigation />
       {travelExp}
+      < Footer />
     </div>
   )
 }
