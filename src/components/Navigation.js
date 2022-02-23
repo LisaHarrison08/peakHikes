@@ -1,14 +1,21 @@
 import React from 'react';
 import './Navigation.css';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Navigation() {
     return (
-        <Navbar dark sticky="top">
-            <div className="container">
-                <NavbarBrand href="/">Peak Hikes</NavbarBrand>
-            </div>
-        </Navbar>
+        <>
+            <Navbar bg="dark" variant="dark">
+                <Container>
+                    <Navbar.Brand href="#home">Peak Hikes</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Nav.Link href="#destinations">Destinations</Nav.Link>
+                        <Nav.Link href="#experiences">Experiences</Nav.Link>
+                        <Nav.Link href="#about">About Us</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
+        </>
     )
 }
 
