@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./components/Home"
 import Navigation from "./components/Navigation"
 import Footer from "./components/Footer"
+import Header from "./components/Header"
 import Traveldata from "./data"
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   })
   return (
     <div>
-      < Navigation />
+      < Header />
       {travelExp}
       < Footer />
     </div>

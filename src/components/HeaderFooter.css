@@ -1,0 +1,12 @@
+header video {
+	display: block;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.site-footer {
+	background-color: rgb(252, 245, 238);
+	margin: 0;
+	padding-top: 20px;
+}
